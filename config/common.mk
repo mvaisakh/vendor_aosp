@@ -78,4 +78,8 @@ include vendor/aosp/config/branding.mk
 # Fonts
 include vendor/fonts/config.mk
 
+# Eye candy
+include vendor/overlay/accents.mk
+include vendor/overlay/overlays.mk
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
