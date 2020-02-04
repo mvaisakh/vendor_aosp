@@ -75,4 +75,7 @@ PRODUCT_PACKAGES += \
 # Branding
 include vendor/aosp/config/branding.mk
 
+# Fonts
+include vendor/fonts/config.mk
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
